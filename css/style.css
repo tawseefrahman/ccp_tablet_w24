@@ -210,8 +210,8 @@ h2 {
 }
 
 .charliboatimage {
-    grid-row-start: 13;
-    grid-row-end: 14;
+    grid-row-start: 12;
+    grid-row-end: 13;
     grid-column-end: 1;
     grid-column-end: 2;
     width: 90%;
@@ -226,24 +226,24 @@ h2 {
 }
 
 .charlilayingimage {
-    grid-row-start: 13;
-    grid-row-end: 14;
+    grid-row-start: 14;
+    grid-row-end: 15;
     grid-column-start: 3;
     grid-row-end: 4;
     width: 90%;
 }
 
 .charliptextone {
-    grid-row: 14;
+    grid-row: 15;
     grid-column: 1 / span 2;
 }
 
 .charlilikestitle {
-    grid-row: 15;
+    grid-row: 16;
 }
 
 .charlilikeslist {
-    grid-row: 16;
+    grid-row: 17;
     grid-column: 1 / span 1;
 }
 
