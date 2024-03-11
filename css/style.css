@@ -71,6 +71,26 @@ ul {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+/* .recipeitem {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+} */
+
+.recipetitle {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.recipeimage {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.recipedescription {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .skip {
     position: absolute;
     left: -10000px;
