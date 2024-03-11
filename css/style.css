@@ -44,11 +44,25 @@ h2 {
     text-decoration: underline;
 }
 
-div {
+.bacondiv {
     font-family: "Century Gothic", sans-serif;
     font-size: 18px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.sagediv {
+    font-family: "Century Gothic", sans-serif;
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.charlidiv {
+    font-family: "Century Gothic", sans-serif;
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .skip {
@@ -112,12 +126,12 @@ div {
 
 .baconptextone {
     grid-row: 3;
-    grid-column: 1;
+    grid-column: 1 / span 2;
 }
 
 .baconptexttwo {
     grid-row: 3;
-    grid-column: 2;
+    grid-column: 3 / span 2;
 }
 
 .baconlikestitle {
@@ -126,6 +140,7 @@ div {
 
 .baconlikeslist {
     grid-row: 5;
+    grid-column: 1 / span 1;
 }
 
 .sagetitle {
@@ -139,32 +154,40 @@ div {
 }
 
 .sageimage {
-    grid-row: 7;
-    grid-column: 1;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 2;
     width: 95%;
 }
 
 .sageclassicimage {
-    grid-row: 7;
-    grid-column: 2;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 2;
+    grid-column-end: 3;
     width: 95%;
 }
 
 .sagesleepimage {
-    grid-row: 7;
-    grid-column: 3;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 3;
+    grid-column-end: 4;
     width: 95%;
 }
 
 .sageyoungimage {
-    grid-row: 7;
-    grid-column: 4;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 4;
+    grid-column-end: 5;
     width: 90%;
 }
 
 .sageptextone {
     grid-row: 8;
-    grid-column: 1;
+    grid-column: 1 / span 2;
 }
 
 .sagelikestitle {
@@ -173,6 +196,7 @@ div {
 
 .sagelikeslist {
     grid-row: 10;
+    grid-column: 1 / span 1;
 }
 
 .charlititle {
@@ -186,26 +210,32 @@ div {
 }
 
 .charliboatimage {
-    grid-row: 13;
-    grid-column: 1;
+    grid-row-start: 13;
+    grid-row-end: 14;
+    grid-column-end: 1;
+    grid-column-end: 2;
     width: 90%;
 }
 
 .charlipuppyimage {
-    grid-row: 13;
-    grid-column: 2;
+    grid-row-start: 13;
+    grid-row-end: 14;
+    grid-column-start: 2;
+    grid-column-end: 3;
     width: 90%;
 }
 
 .charlilayingimage {
-    grid-row: 13;
-    grid-column: 3;
+    grid-row-start: 13;
+    grid-row-end: 14;
+    grid-column-start: 3;
+    grid-row-end: 4;
     width: 90%;
 }
 
 .charliptextone {
     grid-row: 14;
-    grid-column: 1;
+    grid-column: 1 / span 2;
 }
 
 .charlilikestitle {
@@ -214,6 +244,7 @@ div {
 
 .charlilikeslist {
     grid-row: 16;
+    grid-column: 1 / span 1;
 }
 
 .baconqdogbutton {
