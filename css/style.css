@@ -62,7 +62,7 @@ h2 {
     font-family: "Century Gothic", sans-serif;
     font-size: 18px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .skip {
