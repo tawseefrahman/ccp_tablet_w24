@@ -59,36 +59,19 @@ ul {
     font-size: 18px;
 }
 
-/* div {
-    font-family: "Century Gothic", sans-serif;
-    font-size: 18px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-} */
-
 .petandphotogallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-/* .recipeitem {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-} */
-
-.recipetitle {
+.recipeitem {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.recipeimage {
+.travelitem {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.recipedescription {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .skip {
